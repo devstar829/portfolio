@@ -9,6 +9,20 @@ import {
   DiPython,
   DiGit,
   DiJava,
+  DiAngularSimple,
+  DiAws,
+  DiDatabase,
+  DiDjango,
+  DiDocker,
+  DiEclipse,
+  DiFirebase,
+  DiJenkins,
+  DiJira,
+  DiLaravel,
+  DiLinux,
+  DiMsqlServer,
+  DiMysql,
+  DiNginx,
 } from "react-icons/di";
 import {
   SiRedis,
@@ -22,6 +36,18 @@ import { TbBrandGolang } from "react-icons/tb";
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJava />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiAngularSimple />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiAws />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDatabase />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
       </Col>
@@ -62,7 +88,37 @@ function Techstack() {
         <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <DiDjango />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMysql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiEclipse />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiFirebase />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJenkins />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJira />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMsqlServer />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiLinux />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiLaravel />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiNginx />
       </Col>
     </Row>
   );
