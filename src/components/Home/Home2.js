@@ -14,30 +14,51 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+          <Col md={6} className="home-about-description">
+            <h1 style={{ fontSize: "1.6em" }}>
+            Experienced in various aspects of <span className="purple">Full-Stack Development</span>
             </h1>
             <p className="home-about-body">
-            Highly skilled Senior Software Engineer with 10 years of experience in designing, developing, and maintaining web applications. 🤷‍♂️
-              <br />
-              <br />Proficient in
-              <i>
-                <b className="purple"> Java </b> and
-                <b className="purple"> back-end</b> technologies, with a strong focus on creating scalable and high-performance solutions.
-              </i>
-              <br />
-              <br />
-              Adept at collaborating with cross-functional teams to deliver robust software products. Passionate about continuous learning and staying updated with the latest industry trends
+            I am skilled in various programming languages, including JavaScript, TypeScript, Java, C#, and Python. 
+            I have proficiency in both frontend and backend frameworks, such as React, Vue, Next.js, Express, Spring Boot, ASP.NET Core, Django, Flask, and FastAPI. 
+            Additionally, I possess a deep understanding of SQL and NoSQL databases.
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
+
+          <Col md={6} className="home-about-description">
+            <h1 style={{ fontSize: "1.6em" }}>
+              Experienced in working with <span className="purple">Agile</span> methodologies.
+            </h1>
+            <p className="home-about-body">
+            I enjoy working with Agile methodologies, particularly Scrum and Kanban, which I have consistently applied throughout my career. 
+            My experience includes facilitating daily stand-ups, sprint planning, and retrospectives to foster team collaboration and improve project delivery. 
+            This approach has allowed me to adapt to changing requirements and ensure a high level of customer satisfaction.
+            </p>
           </Col>
         </Row>
         <Row>
+          <Col md={6} className="home-about-description">
+            <h1 style={{ fontSize: "1.6em" }}>
+              Familier in <span className="purple">Cloud</span> services.
+            </h1>
+            <p className="home-about-body">
+              Fortunately, I have experience with various cloud service platforms, including AWS, Azure, Netlify, and Heroku. 
+              I am also an expert in using services such as AWS Lambda, Redis, message brokers, and D3.
+            </p>
+          </Col>
+
+          <Col md={6} className="home-about-description">
+            <h1 style={{ fontSize: "1.6em" }}>
+              Implemented <span className="purple">CI/CD</span> pipelines
+            </h1>
+            <p className="home-about-body">
+            I have extensive experience in composing CI/CD pipelines using tools such as GitHub, Docker, Kubernetes, and Jenkins. 
+            I have designed and implemented automated workflows that streamline the integration and deployment processes, ensuring consistent and reliable delivery of applications. 
+            Additionally, I have successfully launched several projects on cloud services, optimizing them for scalability and performance while adhering to best practices in DevOps.
+            </p>
+          </Col>
+        </Row>
+        {/* <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
@@ -66,7 +87,7 @@ function Home2() {
               </li>
             </ul>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </Container>
   );
