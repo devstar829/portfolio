@@ -29,7 +29,7 @@ function Footer() {
                 <AiFillGithub />
               </a>
             </li>
-            <li className="social-icons">
+            {/* <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/soumyajit4419/"
                   target="_blank"
@@ -38,7 +38,7 @@ function Footer() {
                 >
                   <AiFillLinkedin />
                 </a>
-              </li>
+            </li> */}
           </ul>
         </Col>
       </Row>
