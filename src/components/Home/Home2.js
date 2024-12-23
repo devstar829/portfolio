@@ -55,7 +55,7 @@ function Home2() {
             I have extensive experience in composing CI/CD pipelines using tools such as GitHub, Docker, Kubernetes, and Jenkins. 
             I have designed and implemented automated workflows that streamline the integration and deployment processes, ensuring consistent and reliable delivery of applications. 
             Additionally, I have successfully launched several projects on cloud services, optimizing them for scalability and performance while adhering to best practices in DevOps.
-            </p>
+            </p> 
           </Col>
         </Row>
         {/* <Row>
