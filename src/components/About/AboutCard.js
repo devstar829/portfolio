@@ -13,77 +13,83 @@ function AboutCard() {
           
             <br />
             <br />
-            <span className="purple">Datadog (2020 - 2024)</span>
+            <span className="purple">Amazon | SDE III (Senior Software Engineer Level 6) (2021 - 2024)</span>
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Built Datadog services for <span className="purple">real-time query parsing and execution</span>, reducing query delays by 30% with Redis caching.
+              <ImPointRight /> Designed and implemented Amazon’s telehealth service using Java and Spring Boot as the primary
+              backend, deployed on AWS ECS with infrastructure managed via Terraform and CloudFormation
             </li>
             <br />
             <li className="about-activity">
-              <ImPointRight /> Designed <span className="purple">scalable microservices</span> and <span className="purple">data pipelines</span> using Spring Boot, Kafka, and AWS for real-time data processing.
+              <ImPointRight /> Developed key features such as scheduling, video meetings (WebRTC), intake form processing,
+              e-prescriptions, and payment handling (Stripe) with React and Redux for the frontend.
             </li>
             <br />
             <li className="about-activity">
-              <ImPointRight /> Built the Endpoints for fetching <span className="purple">metrics, logs and traces</span> from the users in query parsing and execution service.
+              <ImPointRight /> Collaborated on AI-driven features for automated patient routing and predictive analytics, utilizing
+              Python/FastAPI for experimental models and Spring Boot for production-grade services.
             </li>
             <br />
             <li className="about-activity">
-              <ImPointRight /> Automated <span className="purple">CI/CD pipelines</span> with Jenkins, Kubernetes, and Docker, accelerating deployment cycles and improving efficiency.
+              <ImPointRight /> Built RESTful APIs with Spring Boot, ensuring HIPAA-compliance through AWS IAM, OAuth, and
+              JWT for secure communication.
             </li>
             <br />
             <li className="about-activity">
-              <ImPointRight /> Resolved 15+ critical system issues, enhancing performance, reliability, and scalability.
+              <ImPointRight /> Leveraged AWS S3 for secure file storage, AWS Lambda for event-driven workflows, and CloudWatch for
+              monitoring and troubleshooting microservices
             </li>
             <br />
             <li className="about-activity">
-              <ImPointRight /> Conducted extensive API, unit, and integration testing using JUnit and Mockito to ensure system quality and reliability.
+              <ImPointRight /> Incorporated Node.js for real-time notifications and specific server-side rendering use cases to enhance performance.
+
             </li>
             <br />
             <li className="about-activity">
-              <ImPointRight /> Mentored junior developers and continuously improved development processes and code reviews.
+              <ImPointRight /> Optimized service performance and scalability through AWS CloudWatch, and Kubernetes-based
+              deployments.
+            </li>
+            <br />
+            <li className="about-activity">
+              <ImPointRight /> Conducted A/B testing on AI and microservices workflows, refining algorithms and system interactions
+              based on user feedback, boosting service effectiveness, and increasing patient satisfaction.
             </li>
           </ul>
 
-            <p style={{textAlign: "justify"}}><span className="purple">TechNova Global(2018 - 2020)</span></p>
+            <p style={{textAlign: "justify"}}><span className="purple">Datadog | Software Engineer (2016 - 2018)</span></p>
             <ul>
               <li className="about-activity">
-                <ImPointRight /> Developed an<span className="purple"> e-commerce analytics dashboard</span>, improving search rankings and integrating 3rd-party shopping services.
+                <ImPointRight /> Worked on Datadog’s infrastructure team and developed the Real Time Metrics Systems(Intake, Storage,
+                  Query and Web tiers) that collect, process, and visualize data.
               </li>
               <br />
               <li className="about-activity">
-                <ImPointRight /> <span className="purple">Secured APIs</span> with OAuth 2.0 and integrated RESTful and GraphQL APIs to deliver sales and customer insights.
+                <ImPointRight /> Architected Intake to Storage tier for processing 10TB+/day (1 trillion+ data points) through
+distributed pipelines with dynamic partitioning for cloud-scale customers using kafka and Java
               </li>
               <br />
               <li className="about-activity">
-                <ImPointRight /> Designed <span className="purple">database schemas</span> using PostgreSQL, hosted on AWS RDS with automated backups and reap replicas for failover.
+                <ImPointRight /> Designed a dynamic kafka partition using composite by calling func mod(n, hash(customerID)) enabling
+                1:1 mapping between one partition and one customer.
               </li>
               <br />
               <li className="about-activity">
-                <ImPointRight /> Built a <span className="purple">React-based</span> user-friendly frontend and automated backend processes with Spring annotations and JBoss scripts.
+                <ImPointRight /> Built the hybrid data storage system used by in memory on the other of days, and AWS S3 on the other
+                of months and years.
+              </li>
+              <br />
+              <li className="about-activity">
+                <ImPointRight /> Cross-functionally collaborated with teams across Backend, Frontend and Data Science and Alerting orgs to design, implement, and deliver improved alerting/monitoring reliability to end-customers during internal incidents.
+              </li>
+              <br />
+              <li className="about-activity">
+                <ImPointRight /> Mentored junior developers and continuously improved development processes and code reviews.
               </li>
               <br />
             </ul>
 
-            <p style={{textAlign: "justify"}}><span className="purple">ShopSmart Innovations(2016 - 2018)</span></p>
-            <ul>
-              <li className="about-activity">
-                <ImPointRight /> Developed a <span className="purple">media streaming service</span> using Java, Spring, React, and WebSockets, supporting thousands of concurrent users.
-              </li>
-              <br />
-              <li className="about-activity">
-                <ImPointRight /> Reduced system bottlenecks by 20% through <span className="purple">Kafka-based message streaming</span> for real-time data processing.
-              </li>
-              <br />
-              <li className="about-activity">
-                <ImPointRight /> <span className="purple">Utilized MySQL </span>for storing incident logs and user data, ensuring efficient and reliable data management.
-              </li>
-              <br />
-              <li className="about-activity">
-                <ImPointRight /> Build the maintain scalable <span className="purple">UI</span> components using the React, Redux and Ant Design.
-              </li>
-              <br />
-            </ul>
+           
         </blockquote>
       </Card.Body>
     </Card>
