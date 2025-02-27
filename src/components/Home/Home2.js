@@ -16,7 +16,7 @@ function Home2() {
         <Row>
           <Col md={6} className="home-about-description">
             <h1 style={{ fontSize: "1.6em" }}>
-            Experienced in various aspects of <span className="purple">Full-Stack Development</span>
+            Experienced in various aspects of <span className="purple">Full-Stack Development</span> and <span className="purple">Data Streaming pipeline</span>
             </h1>
             <p className="home-about-body">
             I am skilled in various programming languages, including JavaScript, TypeScript, Java, C#, and Python. 
