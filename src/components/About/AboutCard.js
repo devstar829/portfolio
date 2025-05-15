@@ -57,7 +57,7 @@ function AboutCard() {
             </li>
           </ul>
 
-            <p style={{textAlign: "justify"}}><span className="purple">Datadog | Software Engineer (2016 - 2018)</span></p>
+            <p style={{textAlign: "justify"}}><span className="purple">Datadog | Software Engineer (2016 - 2010)</span></p>
             <ul>
               <li className="about-activity">
                 <ImPointRight /> Worked on Datadog’s infrastructure team and developed the Real Time Metrics Systems(Intake, Storage,
